@@ -1,0 +1,28 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+@import "_variables";
+
+body {
+    background: $primary-background;
+    font-family: $body-copy;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $primary-text;
+}
+
+ol,
+ul {}
+
+li {}
+
+a,
+a:link,
+a:visited {}
+
+a:hover {}
+
+p {}
+
+hr {}
